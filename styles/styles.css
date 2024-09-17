@@ -1,0 +1,53 @@
+* { /* o asterístico reseta as margens de quaisquer navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%; /* Altura */
+    font-family: 'Arial', sans-serif; /* fonte principal */
+}
+
+.banner {
+    background-image: url('https://t4.ftcdn.net/jpg/03/71/56/17/360_F_371561715_LVI4qVJ2hyWMDXdqJNGdktggEzjQuC15.jpg');
+    height: 100vh; /* Altura totoal será utilizada */
+    background-size: cover; /* tamanho do undo do banner será coberto */
+    background-position: center; /* Centralizará o banner */
+    position: relative; /* posição será relativa do display */
+    display: flex; /* Estilo de display */
+    justify-content: center; /* Modelo do display */
+    align-items: center; /* Alinhamento dos itens no display */
+    text-align: center; /* Alinhamento do texto no display */
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 15px;
+}
+.overlay h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.overlay p {
+    color: #ddd;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+#cta-button, #cta-button2 {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#cta-button:hover, #cta-button2:hover {
+    background-color: #f40612;
+    
+}
+
